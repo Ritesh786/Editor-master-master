@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ffffff"
+    >
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_edit_class"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.companyproject.fujitsu.editor.EditClass">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/newstype_edit"
+        android:textColor="@color/black"
+        android:scrollbarSize="20dp"
+        android:text="kjbkkbbkbb"
+        android:layout_marginTop="10dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/newsheadline_edit"
+        android:textColor="@color/black"
+        android:scrollbarSize="20dp"
+        android:layout_marginTop="10dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/newscontent_edit"
+        android:textColor="@color/black"
+        android:scrollbarSize="20dp"
+        android:layout_marginTop="10dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/newscaption_edit"
+        android:textColor="@color/black"
+        android:scrollbarSize="20dp"
+        android:layout_marginTop="10dp"/>
+
+    <Button
+        android:id="@+id/uploadedt_btn"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn"
+        android:layout_marginTop="30dp"
+        android:textColor="#e76a23"
+        android:layout_marginBottom="24dp"
+        android:padding="12dp"
+        android:text="Update News"
+        android:layout_gravity="center"/>
+
+</LinearLayout>
+</ScrollView>
